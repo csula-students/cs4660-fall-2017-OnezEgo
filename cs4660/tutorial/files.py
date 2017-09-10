@@ -1,13 +1,11 @@
-"""Files tests simple file read related operations"""
+from tutorial import lists
 
 from io import open
-from tutorial import lists
+"""Files tests simple file read related operations"""
 
 class SimpleFile(object):
     """SimpleFile tests using file read api to do some simple math"""
     def __init__(self, file_path):
-        # self == this
-        # instance variable
         self.numbers = []
         """
         TODO: reads the file by path and parse content into two
@@ -34,7 +32,6 @@ class SimpleFile(object):
         with zero)
         """
         return max(self.numbers[line_number])
-
 
     def get_min(self, line_number):
         """
