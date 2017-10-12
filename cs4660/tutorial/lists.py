@@ -32,4 +32,3 @@ def get_avg(li):
     #     sum += li[i]
     # return sum/size
     return float(get_sum(li)) / len(li)
-
