@@ -154,7 +154,7 @@ class AdjacencyList(object):
             else:
                 return False
 
-     def distance(self, node_1, node_2):
+    def distance(self, node_1, node_2):
         for edge in self.adjacency_list[node_1]:
             if node_2 == edge.to_node:
                 return edge
